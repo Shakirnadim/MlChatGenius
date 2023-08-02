@@ -9,7 +9,7 @@ import openai
 from dotenv import load_dotenv, find_dotenv
 from PIL import Image
 _ = load_dotenv(find_dotenv())
-openai.api_key = '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'
+openai.api_key = "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"
 
 
 # In[2]:
