@@ -12,10 +12,8 @@ import streamlit as st
 import os
 from PIL import Image
 from dotenv import load_dotenv, find_dotenv
-_ = load_dotenv(find_dotenv()) # read local .env file
-
-openai.api_key  = os.getenv('OPENAI_API_KEY')
-
+load_dotenv("openai.env")
+openai.api_key=os.getenv('OPENAI_API_KEY')
 
 # In[2]:
 
