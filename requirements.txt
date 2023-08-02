@@ -1,0 +1,4 @@
+1. streamlit 
+2. openai: 
+3. dotenv
+4. PLT
