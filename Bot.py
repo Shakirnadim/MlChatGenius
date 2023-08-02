@@ -104,7 +104,7 @@ def main():
     st.markdown(custom_css, unsafe_allow_html=True)
     
     st.title("MlChatGenius: Data Science and ML Chatbot")
-    image=Image.open("C:/Users/shaki/open.ai/friendly-chatbot.jpg")
+    image=Image.open("friendly-chatbot.jpg")
     st.image(image)
     st.write("I am a MlChatGenius, an automated service to explain topics related to Data Science and Machine Learning.")
     
