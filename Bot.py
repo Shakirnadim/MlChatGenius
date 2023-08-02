@@ -14,7 +14,7 @@ from PIL import Image
 _ = load_dotenv(find_dotenv())
 
 # Load the API key from the environment variable
-api_key = os.environ.get('API_KEY')
+api_key = os.environ.get('‘OPENAI_API_KEY')
 
 # Check if the API key exists
 if api_key is None:
