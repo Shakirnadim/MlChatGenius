@@ -14,7 +14,7 @@ from PIL import Image
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv()) # read local .env file
 
-openai.api_key = os.environ["OPENAI_API_KEY"]
+#openai.api_key = os.environ["OPENAI_API_KEY"]
 
 
 # In[2]:
@@ -57,7 +57,7 @@ def collect_messages(prompt):
     return response
 
 def main():
-    
+    openai.api_key = os.environ["OPENAI_API_KEY"]
     # Custom CSS styling for the chatbox and background color
     custom_css = """
     <style>
